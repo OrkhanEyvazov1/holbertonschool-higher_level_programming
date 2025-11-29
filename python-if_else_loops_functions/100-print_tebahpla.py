@@ -11,5 +11,4 @@ def reverse():
 
         print("{}".format(chr(char_code)), end="")
         i += 1
-    print()
 reverse()
