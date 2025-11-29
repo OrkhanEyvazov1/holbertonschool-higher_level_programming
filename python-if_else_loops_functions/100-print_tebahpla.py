@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def reveresengineeringlol():
+def reverse():
 
     i = 0
     for char_code in range(ord('z'), ord('a') - 1, -1):
@@ -12,4 +12,4 @@ def reveresengineeringlol():
         print("{}".format(chr(char_code)), end="")
         i += 1
     print()
-reverseengineeringlol()
+reverse()
