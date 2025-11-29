@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#concat
+#concat str1 and str2
 str1 = "Holberton"
 str2 = "School"
 str1= str1 + " "+str2
