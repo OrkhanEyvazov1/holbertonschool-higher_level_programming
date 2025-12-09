@@ -5,10 +5,7 @@ Module documentation goes here.
 
 
 class Rectangle:
-    """Define a rectangle.   
-    (Note: The original docstring said 'Defy square', which is also
-    inconsistent with the class name.)
-    """
+    ''' def rec'''
 
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
