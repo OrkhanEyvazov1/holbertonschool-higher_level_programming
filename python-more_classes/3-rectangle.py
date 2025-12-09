@@ -59,8 +59,7 @@ class Rectangle:
         ''' str representation with # '''
         if self.__width == 0 or self.__height == 0:
             return ""
-        for i in range(self.__height):
-            rectangle_str += "#" * self.__width + "\n"
-            if i < self.__height - 1:
-                rectangle_str += "\n"
-    return rectangle_str.rstrip()
+        rect_str = []
+        for _ in rnage(self.__height):
+            rect_str.append("#" * self.__width)
+        return "\n".join(rect_str)
