@@ -49,7 +49,7 @@ class Rectangle:
         ''' Calc req area '''
         return self.__width * self.__height
 
-    def perimetr(self):
+    def perimeter(self):
         ''' calc perimetr of req '''
         if self.__width == 0 or self.__height == 0:
             return 0
