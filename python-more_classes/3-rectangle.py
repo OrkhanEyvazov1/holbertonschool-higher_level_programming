@@ -57,7 +57,7 @@ class Rectangle:
 
     def __str__(self):
         ''' str representation with # '''
-        if self.__width == 0 or slef.__height == 0:
+        if self.__width == 0 or self.__height == 0:
             return ""
         for _ in range(self.__height):
             rectangle_str += "#" * self.__width + "\n"
