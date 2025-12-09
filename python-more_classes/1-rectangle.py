@@ -5,8 +5,7 @@ Module documentation goes here.
 
 
 class Rectangle:
-    """Define a rectangle.
-    
+    """Define a rectangle.   
     (Note: The original docstring said 'Defy square', which is also
     inconsistent with the class name.)
     """
@@ -21,7 +20,6 @@ class Rectangle:
         self.width = width
         self.height = height
 
-
     @property
     def width(self):
         """Retrieve the width of the rectangle."""
@@ -35,7 +33,6 @@ class Rectangle:
         if value < 0:
             raise ValueError("width must be >= 0")
         self.__width = value
-
 
     @property
     def height(self):
