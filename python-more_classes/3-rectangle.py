@@ -60,6 +60,6 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return ""
         rect_str = []
-        for _ in rnage(self.__height):
+        for _ in range(self.__height):
             rect_str.append("#" * self.__width)
         return "\n".join(rect_str)
