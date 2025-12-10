@@ -73,7 +73,3 @@ class Rectangle:
         ''' handles deletion '''
         Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
-
-    def number_of_instances():
-        '''returns num of instances of rectangle'''
-        return Rectangle.number_of_instances
