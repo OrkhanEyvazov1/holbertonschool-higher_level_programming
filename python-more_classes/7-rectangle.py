@@ -4,7 +4,6 @@
 
 class Rectangle:
     ''' def req '''
-    
     print_symbol = '#'
     number_of_instances = 0
 
