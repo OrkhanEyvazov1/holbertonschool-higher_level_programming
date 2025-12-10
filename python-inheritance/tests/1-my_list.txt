@@ -1,10 +1,21 @@
->>> MyList = __import__('1-my_list').MyList
->>> my_list = MyList()
+Check that MyList prints a sorted list of integers:
+
+>>> my_list = __import__('1-my_list').MyList()
 >>> my_list.append(1)
 >>> my_list.append(4)
 >>> my_list.append(2)
->>>my_list.append(3)
->>> my_list.append(5)
->>> print(my_list)
 >>> my_list.print_sorted()
->>> print(my_list)
+[1, 2, 4]
+
+Check that it handles an empty list:
+
+>>> my_list = __import__('1-my_list').MyList()
+>>> my_list.print_sorted()
+[]
+
+Check that it handles a list with one element:
+
+>>> my_list = __import__('1-my_list').MyList()
+>>> my_list.append(5)
+>>> my_list.print_sorted()
+[5]
