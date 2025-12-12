@@ -4,6 +4,6 @@ empty class
 '''
 
 
-class myemptypocket():
-    ''' just  '''
+class BaseGeometry():
+    ''' just an empty class'''
     pass
