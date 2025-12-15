@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 ''' serialization dict json module '''
 
+import json
+
 
 def serialize_and_save_to_file(data, filename):
     '''serialize data to json'''
