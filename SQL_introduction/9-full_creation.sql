@@ -1,5 +1,5 @@
 -- create table fully
-CREATE TABLE IF NOT EXISTS seecond_table(
+CREATE TABLE IF NOT EXISTS second_table(
 	id INT,
 	name VARCHAR(256),
 	score INT
