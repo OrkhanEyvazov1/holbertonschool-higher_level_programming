@@ -1,0 +1,2 @@
+-- want to see all
+SHOW GRANTS FOR ALL PRIVILEGES;
